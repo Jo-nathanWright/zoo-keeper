@@ -1,26 +1,22 @@
-class Cat {
+class Yak {
     constructor(
         name = "",
-        type = "",
+        horns = true,
         gender = "",
-        color = "",
-        lives = 0,
-        whiskers = 0
+        color = ""
 
     ) {
         this.name = name;
-        this.type = type;
+        this.horns = horns;
         this.gender = gender;
-        this.color = color;
-        this.lives = lives;
-        this.whiskers = whiskers
+        this.color = color
 
     }
     eat(food) {
-        console.log(`Chew all the ${food}.`)
+        console.log(`Disliikes the ${food}.`)
     }
     speak(noise) {
         alert(`The ${this.constructor.name} says ${noise}!`)
     }
 }
-export default Cat;
+export default Yak;

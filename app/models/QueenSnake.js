@@ -1,26 +1,24 @@
-class Cat {
+class QueenSnake {
     constructor(
         name = "",
-        type = "",
+        length = 0,
         gender = "",
         color = "",
-        lives = 0,
-        whiskers = 0
+        age = 0
 
     ) {
         this.name = name;
-        this.type = type;
+        this.length = length;
         this.gender = gender;
         this.color = color;
-        this.lives = lives;
-        this.whiskers = whiskers
+        this.age = age
 
     }
     eat(food) {
-        console.log(`Chew all the ${food}.`)
+        console.log(`Slowly eats all the ${food} with royal intent.`)
     }
     speak(noise) {
         alert(`The ${this.constructor.name} says ${noise}!`)
     }
 }
-export default Cat;
+export default QueenSnake;
