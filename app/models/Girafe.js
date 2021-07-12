@@ -1,7 +1,7 @@
 class Girafe {
     constructor(
         name = "",
-        height = "",
+        height = 0,
         gender = "",
         spotNumber = 0
     ) {

@@ -1,7 +1,7 @@
 class Panther {
     constructor(
         name = "",
-        weight = "",
+        weight = 0,
         gender = "",
         color = "",
         whiskers = 0
